@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/artFragment"
-        android:name="com.atilsamancioglu.artbookhilttesting.view.ArtFragment"
+        android:name="com.harnet.testing.view.ArtFragment"
         android:label="ArtFragment"
         >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/artDetailsFragment"
-        android:name="com.atilsamancioglu.artbookhilttesting.view.ArtDetailsFragment"
+        android:name="com.harnet.testing.view.ArtDetailsFragment"
         android:label="ArtDetailsFragment">
         <action
             android:id="@+id/action_artDetailsFragment_to_imageApiFragment"
@@ -27,6 +27,6 @@
     </fragment>
     <fragment
         android:id="@+id/imageApiFragment"
-        android:name="com.atilsamancioglu.artbookhilttesting.view.ImageApiFragment"
+        android:name="com.harnet.testing.view.ImageApiFragment"
         android:label="ImageApiFragment" />
 </navigation>

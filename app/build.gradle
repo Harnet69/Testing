@@ -11,13 +11,13 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.atilsamancioglu.artbookhilttesting"
+        applicationId "com.harnet.testing"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "com.atilsamancioglu.artbookhilttesting.HiltTestRunner"
+        testInstrumentationRunner "com.harnet.testing.HiltTestRunner"
     }
 
     buildTypes {
